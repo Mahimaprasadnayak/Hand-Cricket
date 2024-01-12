@@ -238,7 +238,7 @@ class HandCricketGame:
                 break
             else:
                 total_score_c+=comp_num
-        print(f"Computer has scored 0{total_score_c}")
+        print(f"Computer has scored {total_score_c}")
         total_score_c+=1
         print("Your target to chase is:", total_score_c)
 #The block will be used for bowling by Computer
