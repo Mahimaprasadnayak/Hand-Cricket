@@ -48,7 +48,7 @@ class HandCricketGame:
         while True:
             try:
                 T1 = int(input("Enter a num between 1 to 6 for toss: "))
-                if T1 not in [1,6]:
+                if T1 not in range(1,7):
                     raise ValueError('Input must be in range [1,6]')
                 break
             except ValueError as e:
