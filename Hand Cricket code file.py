@@ -128,7 +128,7 @@ class HandCricketGame:
                 total_score_p+=player_num
         print(f"You scored {total_score_p} runs")
         total_score_p+=1
-        print("Your gave the target to chase:", total_score_p)
+        print("You gave the target to chase:", total_score_p)
         print("\n")
         print("Welcome to the second Innings\n")
         
